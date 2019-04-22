@@ -24,9 +24,7 @@ BaselineOfNonCryptographicHashes >> specGroups: spec [
 
 { #category : #specs }
 BaselineOfNonCryptographicHashes >> specPackages: spec [
-
-			spec
-				package: 'NCS-Hashing';
-				package: 'NCS-Hashing-Tests'
-					with: [ spec requires: 'NCS-Hashing' ].
+	spec
+		package: 'NCH-Hashing';
+		package: 'NCH-Hashing-Tests' with: [ spec requires: 'NCH-Hashing' ]
 ]
