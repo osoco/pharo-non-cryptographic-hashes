@@ -16,10 +16,10 @@ BaselineOfNonCryptographicHashes >> baseline: spec [
 
 { #category : #specs }
 BaselineOfNonCryptographicHashes >> specGroups: spec [
-			spec group: 'Core' with: #('NCS-Hashing').
-			spec group: 'Tests' with: #('NCS-Hashing-Tests').
-			spec group: 'All' with: #('Core' 'Tests').
-			spec group: 'default' with: #('All')
+	spec group: 'Core' with: #('NCH-Hashing').
+	spec group: 'Tests' with: #('NCH-Hashing-Tests').
+	spec group: 'All' with: #('Core' 'Tests').
+	spec group: 'default' with: #('All')
 ]
 
 { #category : #specs }
