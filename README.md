@@ -30,3 +30,7 @@ To add this project to your own project's baseline just add this:
 
 Note that you can replace the *master* by another branch or a tag.
 
+## License
+
+This project is written and supported by developers at **[OSOCO](https://osococo.es)** and published as **free and open source** software  under an **[MIT license](LICENSE)**.
+
