@@ -1,0 +1,16 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'NonCryptographicHashes',
+      #directory : 'src',
+      #platforms : [ #pharo ]
+    }
+  ],
+  #testing : {
+    #coverage : {
+      #packages : ['NCH-Hashing*'],
+      #onWarningLog : true,
+      #useLatestMetacello : true
+    }
+  }
+}
