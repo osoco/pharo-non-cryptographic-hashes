@@ -1,5 +1,13 @@
 # pharo-non-cryptographic-hashes
 
+
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![Build Status](https://travis-ci.org/osoco/pharo-non-cryptographic-hashes.svg?branch=master)](https://travis-ci.org/osoco/pharo-non-cryptographic-hashes)
+[![Coverage Status](https://coveralls.io/repos/github/osoco/pharo-non-cryptographic-hashes/badge.svg?branch=master)](https://coveralls.io/github/osoco/pharo-non-cryptographic-hashes?branch=master)
+[![Pharo version](https://img.shields.io/badge/Pharo-7.0-%23aac9ff.svg)](https://pharo.org/download)
+[![Pharo version](https://img.shields.io/badge/Pharo-8.0-%23aac9ff.svg)](https://pharo.org/download)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/osoco/PharoPDS/master/LICENSE)
+
 Collection of non-cryptographic hash functions for Pharo Smalltalk.
 
 It includes the following hash functions:
