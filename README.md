@@ -17,7 +17,7 @@ It includes the following hash functions:
 
 ## Installation
 
-To install `pharo-non-cryptographic-hashes` on your Pharo image you can just find it in the **Pharo Project Catalog** (`World menu` > `Tools` > `Catalog Browser`) and click in the *green mark* icon in the upper right corner to install the latest stable version.
+To install `pharo-non-cryptographic-hashes` on your Pharo image you can just find it in the **Pharo Project Catalog** (`World menu` > `Tools` > `Catalog Browser`) and click in the *green mark* icon in the upper right corner to install the latest stable version:
 
 ![Pharo Project Catalog with the project selected](doc/images/pharo-project-catalog.png)
 
