@@ -47,9 +47,6 @@ NCHMurmur2 >> m [
 
 { #category : #private }
 NCHMurmur2 >> mixWord: aThirtyTwoBitsWord [
-	"     k *= m;
-    k ^= k >> r;
-    k *= m}"
 
 	|  mixedWord  |
 
@@ -65,12 +62,6 @@ NCHMurmur2 >> r [
 
 { #category : #private }
 NCHMurmur2 >> remainingWordFrom: aByteArray [
-	"    
-K1 = 0;
-for (int shift = 0; i < len; i++, shift += 8) {
-   k1 ^= toInt(input[off + i]) << shift;
-}
-"
 
 	| numberOfRemainingBytes remainingWord offsetRemainingBytes remainingByteArray |
 	numberOfRemainingBytes := aByteArray size % 4.
